@@ -1,7 +1,8 @@
 .heading {
     background-color: lightblue;
     color: darkred;
-    padding: 30px;
+    padding: 10px;
+    display: flex;
 }
 
 body{
@@ -12,4 +13,30 @@ body{
 
 .body-text{
     padding: 5px;
+}
+
+.header{
+    justify-content: center;
+    margin: 2px auto;
+}
+
+.footer{
+    display: flex;
+    background-color: darkred;
+    padding: 5px;
+    color: lightblue;
+    justify-content: center;
+}
+
+.footer-two{
+    display: flex;
+    background-color: darkred;
+    padding: 0 5px 5px 0;
+    color: lightblue;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
 }
